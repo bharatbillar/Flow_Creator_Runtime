@@ -946,5 +946,59 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "e61988d76e8e7dc0",
+        "type": "inject",
+        "z": "4a4a16cf3597ac62",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba12cdee1b9f9195",
+        "type": "inject",
+        "z": "4a4a16cf3597ac62",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 120,
+        "wires": [
+            []
+        ]
     }
 ]
