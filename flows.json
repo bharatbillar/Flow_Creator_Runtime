@@ -1270,5 +1270,59 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "0378cfc7bff5c79d",
+        "type": "inject",
+        "z": "4a4a16cf3597ac62",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08932fbf02d962ba",
+        "type": "inject",
+        "z": "4a4a16cf3597ac62",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 120,
+        "wires": [
+            []
+        ]
     }
 ]
